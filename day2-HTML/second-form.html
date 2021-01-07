@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Form
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>    
+    <body>
+        <div class="content">
+        
+            <form>
+                <table cellpadding="2px" cellspacing="5px">
+                        <thead >
+                            <tr>
+                               <th class="pizza" colspan="2">
+                             Pizza Shop
+                               </th>
+                             </tr>
+                         </thead>
+                        <tbody>
+                            <tr style="">
+                                <td class="first-td label-td" align="left">
+                                    Name
+                                  </td>
+                                  <td class="first-td">
+                                    <input id="name" type="text" name="name" value="" placeholder="Place your name here">
+                                  </td>
+                            </tr>
+                            <tr>
+                                <td class="label-td" align="left">
+                                    Pizza Topping
+                                  </td>
+                                  <td>
+                                    <input type="radio" name="topping" value="supreme"> Supreme<br>
+                                    <input type="radio" name="topping" value="vegetarian"> Vegetarian<br>
+                                    <input type="radio" name="topping" value="hawaiian"> Hawaiian
+                        
+                                  </td>
+                            </tr>
+                            <tr>
+                                <td class="label-td" align="left">
+                                   Pizza Sauce
+                                  </td>
+                                  <td>
+                                    <select name="sauce">
+                                        <option value="tomate">Tomato</option>
+                                        <option value="barbeque">Barbeque</option>
+                                        <option value="secret Sauce">Secret Sauce</option>
+                                    </select>
+                        
+                                  </td>
+                            </tr>
+                            <tr>
+                                <td class="label-td" align="left">
+                                   Optional Extras
+                                  </td>
+                                  <td>
+                                    <input type="checkbox" name="extras" value="extracheese"> Extra Cheese
+                                    <br>
+                                    <input type="checkbox" name="extras" value="glutenfree"> Gluten Free Base
+                                    
+                                    
+                                  </td>
+                            </tr>
+                            <tr>
+                                <td class="label-td" align="left">
+                                   Delivery Instructions
+                                  </td>
+                                  <td>
+                                   <textarea name="comments" rows="5" cols="40"></textarea>
+                                   <br>   
+                                    <!-- <input value="Send my order" type="submit"> -->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                  <button type="submit">SEND MY ORDER</button>
+                                </td>
+                              </tr>
+                        </tbody>
+        
+                </form>
+            </table>
+   
+    </div>
+    </body>
+</html>

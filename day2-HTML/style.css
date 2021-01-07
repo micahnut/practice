@@ -1,0 +1,55 @@
+.about{
+    background-color: #ffe6b6;
+    font-family: 'Open Sans', sans-serif;
+}
+.fav{
+    background-color: #ffcc98;
+    font-family: 'Grandstander', sans-serif;
+}
+.social{
+    background-color: #53ccec;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.name{
+    font-size: 20px;;
+}
+
+#social{
+    font-size: 40px;
+}
+
+.li-header{
+    font-size: 30px
+}
+
+.favorite{
+    font-size: 40px;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:white;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .description{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }

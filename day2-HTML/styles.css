@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.content{
+    color: white;
+  /* The image used */
+  background-image: url("pizza.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+   
+}
+
+.pizza{
+    color: orange; 
+    border-bottom: solid 1px white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+table{
+    table-layout: fixed;
+    width: 400px;
+}
+
+button{
+    width: 100%;
+    padding: 10px 10px;
+    color: white;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+textarea ,#name, select{
+    border: none;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+    -moz-box-sizing: border-box; /* FF1+ */
+    box-sizing: border-box; /* Chrome, IE8, Opera, Safari 5.1*/
+}
+
+textarea{
+    border-radius: 2px;
+}
+
+td{
+    padding-bottom: 10px;
+}
+
+#name, select{
+    padding: 5px 5px;
+    border-radius: 2px;
+}
+
+.first-td{
+    padding-top: 30px;
+}
+
+.label-td{
+    vertical-align:top
+}
